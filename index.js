@@ -2,7 +2,6 @@ const express = require('express');
 
 const app = express();
 
-// Define the port for your server
 const PORT = process.env.PORT || 3000;
 
 // Use body-parser to parse incoming JSON payloads
